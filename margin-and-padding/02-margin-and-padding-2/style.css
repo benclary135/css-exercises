@@ -32,13 +32,9 @@ body {
 }
 
 button {
-  /* This is the section that is giving me trouble. */
   background: white;
-  border: 1px solid #eee;
+  border: 2px solid black;
   padding: 8px 24px;
-  display: block; /* Solution file says "display: block;" is correct, as well as "margin: 0, auto;" */
-  margin: 0, auto;
+  display: block;
+  margin: 0 auto;
 }
-
-/* I just don't understand why the button isn't centering itself at this point.  I don't think it's
-inheriting anything I'm not aware of or anything like that.  I'm missing something. */
