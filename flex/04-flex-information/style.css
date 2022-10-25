@@ -38,4 +38,6 @@ img {
   align-items: center;
   justify-content: center;
   text-align: center;
+  flex-wrap: wrap;
+  gap: 52px;
 }
